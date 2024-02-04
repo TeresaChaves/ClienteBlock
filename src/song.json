@@ -1,0 +1,155 @@
+{
+    "songs": [
+        {
+            "id": 1,
+            "artist": "Dua Lipa",
+            "image": "https://res.cloudinary.com/dlt2cjtvj/image/upload/v1678191457/Credit%20Song/dua_lipa_last_dance-portada_uc9l3g.jpg",
+            "frontsong1": "New Rules",
+            "allSongs": [
+                {
+                    "name": "Love Again",
+                    "url_video": "https://www.youtube.com/watch?v=BC19kwABFwc",
+                    "image": "https://res.cloudinary.com/dlt2cjtvj/image/upload/v1678191457/Credit%20Song/dua_lipa_last_dance-portada_uc9l3g.jpg",
+                    "song2": "New Rules",
+                    "percentage": "0.001",
+                    "price": "0,58"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "artist": "Rick",
+            "image": "https://res.cloudinary.com/dlt2cjtvj/image/upload/v1676028844/Credit%20Song/rick_c8x7ih.jpg",
+            "frontsong1": "Never G Give You Up",
+            "allSongs": [
+                {
+                    "name": "Never G Give You Up",
+                    "url_video": "",
+                    "image": "https://res.cloudinary.com/dlt2cjtvj/image/upload/v1676028844/Credit%20Song/rick_c8x7ih.jpg",
+                    "song2": "New Rules",
+                    "percentage": "0.001",
+                    "price": "0,58"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "artist": "Demi Lovato",
+            "image": "https://res.cloudinary.com/dlt2cjtvj/image/upload/v1676028844/Credit%20Song/demi_mhm4pu.jpg",
+            "frontsong1": "New Rules",
+            "allSongs": [
+                {
+                    "name": "Heart Attack",
+                    "url_video": "",
+                    "image": "https://res.cloudinary.com/dlt2cjtvj/image/upload/v1676028844/Credit%20Song/demi_mhm4pu.jpg",
+                    "song2": "New Rules",
+                    "percentage": "0.001",
+                    "price": "1,49"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "artist": "JBalvin",
+            "name": "JBalvin",
+            "image": "https://res.cloudinary.com/dlt2cjtvj/image/upload/v1676028843/Credit%20Song/jbalvin_vsz0e9.jpg",
+            "frontsong1": "By JBalvin",
+            "allSongs": [
+                {
+                    "url_video": "",
+                    "image": "https://res.cloudinary.com/dlt2cjtvj/image/upload/v1676028843/Credit%20Song/jbalvin_vsz0e9.jpg",
+                    "song2": "New Rules",
+                    "percentage": "0.001",
+                    "price": "0,68"
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "artist": "Malbec",
+            "frontsong1": "Never Gonna",
+            "image": "https://res.cloudinary.com/dlt2cjtvj/image/upload/v1676028845/Credit%20Song/Malbec_q4lmgw.jpg",
+            "allSongs": [
+                {
+                    "name": "Never Gonna",
+                    "url_video": "",
+                    "image": "https://res.cloudinary.com/dlt2cjtvj/image/upload/v1678277390/Credit%20Song/Daisy_pdfidr.jpg",
+                    "song2": "Daisy",
+                    "percentage": "0.001",
+                    "price": "0,68"
+                },
+                {
+                    "name": "Never Gonna",
+                    "url_video": "",
+                    "image": "https://res.cloudinary.com/dlt2cjtvj/image/upload/v1676028845/Credit%20Song/Malbec_q4lmgw.jpg",
+                    "song2": "Wineson",
+                    "percentage": "0.001",
+                    "price": "0,77"
+                },
+                {
+                    "name": "Never Gonna",
+                    "url_video": "",
+                    "image": "https://res.cloudinary.com/dlt2cjtvj/image/upload/v1678277390/Credit%20Song/Mammas_Party_ihksxc.jpg",
+                    "song2": "Mama Party",
+                    "percentage": "0.001",
+                    "price": "0,58"
+                },
+                {
+                    "url_video": "",
+                    "image": "https://res.cloudinary.com/dlt2cjtvj/image/upload/v1678277390/Credit%20Song/Lucky_Monkey_tkv8be.jpg",
+                    "song2": "Lucky Monkey",
+                    "percentage": "0.001",
+                    "price": "0,58"
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "artist": "Daddy Yankee",
+            "frontsong1": "Rumbaton",
+            "image": "https://res.cloudinary.com/dlt2cjtvj/image/upload/v1676028844/Credit%20Song/daddy_oprer7.jpg",
+            "allSongs": [
+                {
+                    "name": "Rumbaton",
+                    "url_video": "",
+                    "image": "https://res.cloudinary.com/dlt2cjtvj/image/upload/v1676028844/Credit%20Song/daddy_oprer7.jpg",
+                    "song2": "Rumbaton",
+                    "percentage": "0.001",
+                    "price": "0,68"
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "artist": "Slim Shady",
+            "frontsong1": "Slim Shady",
+            "image": "https://res.cloudinary.com/dlt2cjtvj/image/upload/v1676028844/Credit%20Song/eminem_fx3d3g.jpg",
+            "allSongs": [
+                {
+                    "name": "Slim Shady",
+                    "url_video": "",
+                    "image": "https://res.cloudinary.com/dlt2cjtvj/image/upload/v1676028844/Credit%20Song/eminem_fx3d3g.jpg",
+                    "song2": "New Rules",
+                    "percentage": "0.001",
+                    "price": "0,68"
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "artist": "Thuntercat",
+            "frontsong1": "Never Gonna",
+            "image": "https://res.cloudinary.com/dlt2cjtvj/image/upload/v1676028844/Credit%20Song/thuntercat_qzifpd.jpg",
+            "allSongs": [
+                {
+                    "name": "Plastic Hamburgers",
+                    "url_video": "",
+                    "image": "https://res.cloudinary.com/dlt2cjtvj/image/upload/v1676028844/Credit%20Song/thuntercat_qzifpd.jpg",
+                    "song2": "New Rules",
+                    "percentage": "0.001",
+                    "price": "0,68"
+                }
+            ]
+        }
+    ]
+}

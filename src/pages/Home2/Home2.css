@@ -1,0 +1,342 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+/* Header */
+.headerCredit {
+    position: relative;
+    width: 100%;
+    height: 55vw;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+    overflow: hidden;
+    background-color: #111111;
+    padding: 2vw;
+    padding-left: 5vw;
+}
+
+
+
+.h1Home {
+    font-weight: bold;
+    font-size: 7vw;
+    color: #fcf8f8;
+    z-index: 2;
+    margin-top: 5vw;
+    
+    animation-name: moveLeft;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+
+}
+
+@keyframes moveLeft {
+    0% {
+        transform: translateX(50%);
+    }
+
+    100% {
+        transform: translateX(0%);
+        text-align: left;
+    }
+}
+
+
+
+.imagenMano {
+    position: relative;
+    top: -20vw;
+    left: -20vw;
+    width: 80%;
+    height: 100%;
+    z-index: 1;
+    /* margin-top: -431px; */
+    opacity: 0.3;
+}
+
+.enhancetext {
+    color: #fcf8f8;
+    z-index: 4;
+    font-size: 2vw;
+    font-weight: 500;
+    margin-top: 2vw;
+    color: #dddddd;
+}
+
+.buttondetalles {
+    border-radius: 2vw;
+    background-color: #D5A848;
+    color: #ffffff;
+    font-size: 1vw;
+    padding: 1vw;
+    font-weight: 600;
+    margin-top: 2vw;
+    padding: 0px 1vw 0px 1vw;
+    height: 2.5vw;
+}
+
+
+.manodisplay {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+    flex-wrap: wrap;
+}
+
+/* Learn More */
+
+.home-2 {
+    padding-top: 1vw;
+    background-color: #111111;
+}
+
+.container-section-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    margin-top: 2vw;
+    padding: 1vw;
+
+}
+
+
+.article-info h2 {
+    color: #ffffff;
+    display: flex;
+    font-weight: 600;
+    font-size: 4vw;
+}
+
+.article-info p {
+    color: #DDDDDD;
+    font-size: 1.5vw;
+    font-weight: 20;
+    width: 30vw;
+}
+
+.img1-info {
+    width: 55vw;
+    height: 30vw;
+    border-radius: 2vw;
+}
+
+.buttondetalles2 {
+    border-radius: 2vw;
+    background-color: #D5A848;
+    color: #ffffff;
+    font-size: 1vw;
+    padding: 1vw;
+    font-weight: 600;
+
+    padding: 0px 1vw 0px 1vw;
+    height: 2.75vw;
+}
+
+
+
+/* Resume */
+
+
+.resume {
+    background-color: #111111;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 4vw;
+    align-items: center;
+    padding: 1.2vw 0px;
+    flex-wrap: wrap;
+    padding-top: 1vw;
+}
+
+.card-resume {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    margin-top: 2.5vw;
+    margin-left: 2.5vw;
+    margin-right: 2.5vw;
+    width: 20vw;
+    height: 14vw;
+    border-radius: 2vw;
+    background-color: #ffffff;
+    padding: 1.5vw;
+}
+
+.title-resume {
+    color: #111111;
+    font-size: 1.5vw;
+    font-weight: bold;
+    margin-top: 1.5vw;
+    align-self: start;
+
+}
+
+.title-resume1 {
+    color: #111111;
+    font-size: 1.5vw;
+    font-weight: bold;
+    margin-top: 2.5vw;
+    align-self: start;
+
+}
+
+.text-resume {
+    color: #111111;
+    font-size: 1vw;
+    font-weight: 400;
+
+}
+
+.card-resume2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    margin-top: 2.5vw;
+    margin-left: 2.5vw;
+    margin-right: 2.5vw;
+    width: 22vw;
+    height: 15vw;
+    border-radius: 2vw;
+    background-color: #ffffff;
+    padding: 1.5vw;
+}
+/* Contact Us */
+.contactus {
+    background: #111111;
+    
+}
+
+.containerhome {
+    position: relative;
+    width: 100%;
+    height: 55vw;
+    background: #111111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item {
+    width: 100%;
+    height: 50vw;
+    max-width: 60vw;
+    background: #ffffff;
+    border-radius: 2vw;
+    overflow: hidden;
+    grid-template-columns: repeat(2, 1fr);
+    display: grid;
+    z-index: 1000;
+}
+
+.contact {
+    background: #111111;
+}
+
+.submit-form {
+    background: #ffffff;
+}
+
+.first-text {
+    color: #ffffff;
+    padding-left: 2vw;
+    padding-top: 2vw;
+    font-size: 3vw;
+    font-weight: 600;
+}
+
+form {
+    padding: 0 4vw;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+
+}
+
+.inputbox {
+    height: 3vw;
+    width: 70%;
+    margin: 2.5vw 1vw;
+    position: relative;
+
+}
+
+.input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: 0.15vw solid #111111;
+    border-radius: 2vw;
+    outline: none;
+    padding-left: 1vw;
+    color: #111111;
+    font-size: 1vw;
+}
+
+.botones-form {
+    margin-bottom: 2vw;
+}
+
+.inputbox label {
+    position: absolute;
+    top: 50%;
+    left: 1vw;
+    padding-left: 1vw;
+    transform: translateY(-50%);
+    font-size: 1vw;
+    font-weight: 400;
+    color: #111111;
+    transition: .3s;
+}
+
+.inputbox .input:focus~label,
+.inputbox .input:valid~label {
+    top:-0.4vw ;
+    left: 1vw;
+    background: #ffffff;
+    font-weight: 400;
+    font-size: 1vw;
+    padding: 0.25vw;
+}
+
+textarea.input {
+    resize: none;
+    min-height: 20vw;
+    overflow: auto;
+}
+
+.btncontactus {
+    position: relative;
+    top: 16vw;
+    left: 1.5vw;
+    background: #D5A848;
+    outline: none;
+    border: none;
+    border-radius: 2vw;
+    width: 20%;
+    font-size: 1vw;
+    font-weight: 500;
+    color: #ffffff;
+    cursor: pointer;
+
+
+
+
+
+
+}

@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+  }
+  
+body {
+  background-color: #040606;
+  margin: 0px;
+  padding: 0px;
+}
+
+.wrapper {
+  height: 4.2vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  z-index: 30;
+  border-color: rgba(0, 0, 0, 0.08);
+  border-style: solid;
+}
+
+nav {
+  display: flex;
+  width: 90%;
+  justify-content: space-around;
+  align-content: space-around;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  z-index: 31;
+}
+
+
+
+.logo {
+  margin-right: auto;
+  width: 6.2vw;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  gap: 1.5vw;
+}
+
+
+.nav-link {
+  text-decoration: none;
+  color: #000;
+  position: relative;
+  font-size: 1.2vw;
+}
+
+.nav-link::after {
+  content: "";
+  top: 100%;
+  border-bottom: 2px solid #D5A848;
+  transition: all 0.35s;
+  position: absolute;
+  color: #D5A848;
+
+}
+
+.nav-link:hover::after {
+  transition: all 0.35s;
+  color: #D5A848;
+
+
+}
+
+.nav-link::after {
+  border-bottom: 2px solid #D5A848;
+  right: 50%;
+  left: 50%;
+  color: #D5A848;
+}
+
+.nav-link:hover::after {
+  right: 0;
+  left: 0;
+  color: #D5A848;
+}
+
+.nav-link:active {
+  right: 0;
+  left: 0;
+  color: #D5A848;
+}
+
+.metamask {
+  width: 2.5vw;
+
+
+}
+
+
+
+
+
+
+
+
+.btnwalletandtext {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.buttonWallet {
+  width: 7vw;
+  justify-content: center;
+  height: 3vw;
+  outline: none;
+  background-color: transparent;
+  transition: 1s;
+  border-radius: 1vw;
+  margin-left: 2vw;
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  
+}
+
+
+.buttonWallet:hover {
+
+  transform: scale(1.1);
+  /* aumenta el tamaño en un 10% */
+  transition: transform 0.2s ease-in-out;
+  /* agrega una transición suave */
+  cursor: pointer;
+
+
+}
+
+
+
+

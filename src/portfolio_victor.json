@@ -1,0 +1,82 @@
+{
+    "NFTCollectionInfo": [
+        {
+            "id": 1,
+            "artist_name": "Dua Lipa",
+            "artist_image": "https://res.cloudinary.com/dlt2cjtvj/image/upload/v1678191457/Credit%20Song/dua_lipa_last_dance-portada_uc9l3g.jpg",
+            "allSongs": [
+                {
+                    "address": "0xB9D9fd071c54C7DB6297Ac6067961bCA6e6D6407",
+                    "artist_name": "Love Again",
+                    "artist_image": "https://res.cloudinary.com/dlt2cjtvj/image/upload/v1678191457/Credit%20Song/dua_lipa_last_dance-portada_uc9l3g.jpg",
+                    "available_supply:": "10",
+                    "next_royalty_dates": 1686720800,
+                    "price": 1,
+                    "royalies_to_distribute": "1",
+                    "royalty_balance": "10",
+                    "sell_balances": "0",
+                    "song_image": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fi1.sndcdn.com%2Favatars-ozKySCOm8LGzyzvJ-5gDjuw-t240x240.jpg&tbnid=QZlRJyxlmXWkrM&vet=12ahUKEwj-7JK29tb-AhX5micCHfcjD-AQMygBegUIARDFAQ..i&imgrefurl=https%3A%2F%2Fsoundcloud.com%2Fmelendi-official&docid=18LNWWcsatgWbM&w=240&h=240&q=foto%20de%20melendi%20song&ved=2ahUKEwj-7JK29tb-AhX5micCHfcjD-AQMygBegUIARDFAQ",
+                    "song_name": "Loco",
+                    "song_video": "",
+                    "total_supply": "10",
+                    "user_num_NFTs": 2
+                },
+                {
+                    "address": "0xB9D9fd071c54C7DB6297Ac6067961bCA6e6D6407",
+                    "artist_name": "Love Hello",
+                    "artist_image": "https://res.cloudinary.com/dlt2cjtvj/image/upload/v1678191457/Credit%20Song/dua_lipa_last_dance-portada_uc9l3g.jpg",
+                    "available_supply:": 10,
+                    "next_royalty_dates": 1686720800,
+                    "price": 1,
+                    "royalies_to_distribute": 1,
+                    "royalty_balance": 10,
+                    "sell_balances": 0,
+                    "song_image": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fi1.sndcdn.com%2Favatars-ozKySCOm8LGzyzvJ-5gDjuw-t240x240.jpg&tbnid=QZlRJyxlmXWkrM&vet=12ahUKEwj-7JK29tb-AhX5micCHfcjD-AQMygBegUIARDFAQ..i&imgrefurl=https%3A%2F%2Fsoundcloud.com%2Fmelendi-official&docid=18LNWWcsatgWbM&w=240&h=240&q=foto%20de%20melendi%20song&ved=2ahUKEwj-7JK29tb-AhX5micCHfcjD-AQMygBegUIARDFAQ",
+                    "song_name": "Loco",
+                    "song_video": "",
+                    "total_supply": 10,
+                    "user_num_NFTs": 2
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "artist_name": "Melendi",
+            "artist_image": "https://res.cloudinary.com/dlt2cjtvj/image/upload/v1683817717/Melendi-Foto-Promocional-2021_qklqpd.jpg",
+            "allSongs": [
+                {
+                    "address": "0xB9D9fd071c54C7DB6297Ac6067961bCA6e6D6407",
+                    "artist_name": "Love Loco",
+                    "artist_image": "https://res.cloudinary.com/dlt2cjtvj/image/upload/v1678191457/Credit%20Song/dua_lipa_last_dance-portada_uc9l3g.jpg",
+                    "available_supply:": "10",
+                    "next_royalty_dates": 1686720800,
+                    "price": 1,
+                    "royalies_to_distribute": "1",
+                    "royalty_balance": "10",
+                    "sell_balances": "0",
+                    "song_image": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fi1.sndcdn.com%2Favatars-ozKySCOm8LGzyzvJ-5gDjuw-t240x240.jpg&tbnid=QZlRJyxlmXWkrM&vet=12ahUKEwj-7JK29tb-AhX5micCHfcjD-AQMygBegUIARDFAQ..i&imgrefurl=https%3A%2F%2Fsoundcloud.com%2Fmelendi-official&docid=18LNWWcsatgWbM&w=240&h=240&q=foto%20de%20melendi%20song&ved=2ahUKEwj-7JK29tb-AhX5micCHfcjD-AQMygBegUIARDFAQ",
+                    "song_name": "Loco",
+                    "song_video": "",
+                    "total_supply": "9",
+                    "user_num_NFTs": "2"
+                },
+                {
+                    "address": "0xB9D9fd071c54C7DB6297Ac6067961bCA6e6D6407",
+                    "artist_name": "Guy Hello",
+                    "artist_image": "https://res.cloudinary.com/dlt2cjtvj/image/upload/v1678191457/Credit%20Song/dua_lipa_last_dance-portada_uc9l3g.jpg",
+                    "available_supply:": 10,
+                    "next_royalty_dates": 1686720800,
+                    "price": 1,
+                    "royalies_to_distribute": 1,
+                    "royalty_balance": 10,
+                    "sell_balances": 0,
+                    "song_image": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fi1.sndcdn.com%2Favatars-ozKySCOm8LGzyzvJ-5gDjuw-t240x240.jpg&tbnid=QZlRJyxlmXWkrM&vet=12ahUKEwj-7JK29tb-AhX5micCHfcjD-AQMygBegUIARDFAQ..i&imgrefurl=https%3A%2F%2Fsoundcloud.com%2Fmelendi-official&docid=18LNWWcsatgWbM&w=240&h=240&q=foto%20de%20melendi%20song&ved=2ahUKEwj-7JK29tb-AhX5micCHfcjD-AQMygBegUIARDFAQ",
+                    "song_name": "Loco",
+                    "song_video": "",
+                    "total_supply": 10,
+                    "user_num_NFTs": 2
+                }
+            ]
+        }
+    ]
+}

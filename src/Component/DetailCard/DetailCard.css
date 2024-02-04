@@ -1,0 +1,310 @@
+.nameofPrice {
+  padding-right: 10px;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+/* .card {
+
+    position: relative;
+
+} */
+
+.d-flex.flex-row.detail {
+  height: 210px;
+  width: 608px;
+  background: rgb(250, 250, 250);
+  border-radius: 8px;
+  display: flex;
+  backdrop-filter: blur(10px);
+  transition: 0.5s ease-in-out;
+  margin-left: 50px;
+}
+
+input {
+  width: 115px;
+  background-color: #fcfbf5;
+  border-radius: 1px;
+}
+
+.top-detail {
+  border-radius: 20px;
+  padding: 10px;
+  width: 300px;
+  max-width: 120px;
+}
+
+.firstline {
+  font-weight: 600;
+  margin-left: 10px;
+  font-size: 16px;
+}
+
+.image-container-detail img {
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+
+.card-body.detail {
+  margin-left: -105px;
+}
+
+.globaltext {
+  margin-left: 10px;
+  margin-right: 15px;
+  padding-bottom: 10px;
+}
+
+.nameoflist2 {
+  color: #666666;
+  font-size: 12px;
+}
+
+.nameofartist2 {
+  padding: 10px;
+  font-weight: bold;
+  margin-top: -90px;
+  margin-bottom: 10px;
+  width: 100px;
+  /* o cualquier otro ancho fijo que desees */
+  white-space: nowrap;
+  /* evita que el texto se envuelva */
+  overflow: hidden;
+  /* evita que el texto desborde el contenedor */
+  text-overflow: ellipsis;
+}
+
+#myselect {
+  position: absolute;
+  z-index: 999;
+  top: -50px;
+  left: 10%;
+  transform: translateX(-50%);
+}
+
+.css-wmy1p7-ReactDropdownSelect {
+  border: 1px solid #ccc;
+  position: absolute;
+}
+
+.card-detail {
+  margin-top: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  background-color: #ffffff;
+  box-shadow: 0px 0.7961918735236395px 2.3885756205709185px -0.625px rgba(0, 0, 0, 0.05),
+    0px 2.414506143104518px 7.2435184293135535px -1.25px rgba(0, 0, 0, 0.05),
+    0px 6.382653521484461px 19.147960564453385px -1.875px rgba(0, 0, 0, 0.05),
+    0px 20px 60px -2.5px rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.5s ease-in-out;
+}
+
+/* Agrega tus estilos de CSS existentes */
+
+/* Estilos para el ícono "copy to clipboard" */
+.copyIcon {
+  cursor: pointer;
+  display: inline-block;
+  vertical-align: middle;
+  width: 16px;
+  /* Ajusta el tamaño del ícono según sea necesario */
+  height: 16px;
+  /* Ajusta el tamaño del ícono según sea necesario */
+}
+
+/* Puedes ajustar el fondo, borde y otros estilos según lo desees */
+.copyIcon img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.btnBuy {
+  background: #000000;
+  /* font-family: inherit; */
+  padding: 0.5em 4.5em;
+  font-size: 15px;
+  border-radius: 0.4em;
+  box-shadow: 0.1em 0.1em;
+  margin-right: 20px;
+  color: white;
+  font-weight: bold;
+}
+
+.btnBuy:hover {
+  transform: translate(-0.05em, -0.05em);
+  box-shadow: 0.15em 0.15em;
+}
+
+.btnBuy:active {
+  transform: translate(0.05em, 0.05em);
+  box-shadow: 0.05em 0.05em;
+}
+
+.btnBuy2 {
+  background: #e4e3e1;
+  padding: 0.4em 1em;
+  font-weight: 900;
+  font-size: 15px;
+  border-radius: 0.4em;
+  box-shadow: 0.1em 0.1em;
+  margin: 10px;
+}
+
+.blancohr {
+  color: #ccc;
+  font-weight: bold;
+}
+
+.detailcardflex {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+}
+
+.carddetailflex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-content: center;
+  margin: 0px;
+  gap: 20px;
+}
+
+.namefrontdetail {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-content: flex-start;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 610px;
+}
+
+form {
+  padding: 0px 0px 0px 0px !important;
+  overflow: hidden !important;
+  margin: 10px 5px 10px 0px !important;
+}
+
+.btnBuyQuantity {
+  background: rgb(255, 255, 255);
+  font-weight: 600;
+  font-size: 15px;
+  border-radius: 20px;
+  margin-right: 20px;
+  margin-top: 10px;
+  border: 2px solid #ccc;
+}
+
+.btnBuyQuantity input {
+  width: 105px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+  border: none;
+  padding: 12px;
+}
+
+.btnBuy2:hover {
+  transform: translate(-0.05em, -0.05em);
+  box-shadow: 0.15em 0.15em;
+}
+
+.btnBuy2:active {
+  transform: translate(0.05em, 0.05em);
+  box-shadow: 0.05em 0.05em;
+}
+
+.percent {
+  font-weight: bold;
+}
+
+.btnBuyPurchuse {
+  padding: 0.9em 1.5em;
+  font-size: 15px;
+  border-radius: 20px;
+  box-shadow: 0.1em 0.1em;
+  margin-right: 20px;
+  color: white;
+  background: #000000;
+  font-weight: 600;
+  box-shadow: 0px 0.7065919983928324px 0.7065919983928324px -0.625px rgba(0, 0, 0, 0.15),
+    0px 1.8065619053231785px 1.8065619053231785px -1.25px rgba(0, 0, 0, 0.14398),
+    0px 3.6217592146567767px 3.6217592146567767px -1.875px rgba(0, 0, 0, 0.13793),
+    0px 6.8655999097303715px 6.8655999097303715px -2.5px rgba(0, 0, 0, 0.12711),
+    0px 13.646761411524492px 13.646761411524492px -3.125px rgba(0, 0, 0, 0.10451),
+    0px 30px 30px -3.75px rgba(0, 0, 0, 0.05);
+}
+
+/* font-family: inherit; */
+
+@media only screen and (max-width: 768px) {
+  .d-flex.flex-row.detail {
+    width: 350px;
+
+    background: white;
+    border-radius: 20px;
+    /* flex-direction: row-reverse;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: stretch;
+        align-items: center; */
+
+    margin: 17px;
+    backdrop-filter: blur(10px);
+    transition: 0.5s ease-in-out;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px,
+      rgba(6, 24, 44, 0.65) 0px 4px 6px -1px,
+      rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+  }
+
+  .card-body.detail {
+    margin-left: -105px;
+  }
+
+  .card-img,
+  .card-img-top.detail {
+    width: 135px;
+    height: 150px;
+    display: flex;
+    border-radius: 10px;
+    background: linear-gradient(#d7cfcf, #9198e5);
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px,
+      rgba(6, 24, 44, 0.65) 0px 4px 6px -1px,
+      rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+  }
+
+  .btnBuy2 {
+    background: #7072a5;
+    /* font-family: inherit; */
+    padding: 0.3em 0.3em;
+    font-weight: 900;
+    font-size: 15px;
+    border: 3px solid black;
+    border-radius: 0.4em;
+    box-shadow: 0.1em 0.1em;
+    margin: 10px;
+  }
+
+  .btnBuy {
+    background: #5ea280;
+    /* font-family: inherit; */
+    padding: 0.3em 0.5em;
+    font-weight: 900;
+    font-size: 15px;
+    border: 3px solid black;
+    border-radius: 0.4em;
+    box-shadow: 0.1em 0.1em;
+  }
+}

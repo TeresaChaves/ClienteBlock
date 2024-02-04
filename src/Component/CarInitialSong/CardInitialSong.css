@@ -1,0 +1,121 @@
+/*Whole Card*/
+
+.cardInitialSong {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between; /* Use this to create two columns */
+    align-items: center;
+    border-radius: 3vw;
+    height: 10vw;
+    width: 47%; /* Set the width to 45% to create two columns */
+    margin: 1vw; /* Adjust margin for spacing between columns */
+    box-shadow: 0 0.4vw 1.2vw -0.3125vw rgba(0, 0, 0, 0.05),
+                0 1.21vw 3.63vw -0.625vw rgba(0, 0, 0, 0.05),
+                0 3.2vw 9.6vw -1.125vw rgba(0, 0, 0, 0.05),
+                0 10vw 30vw -1.25vw rgba(0, 0, 0, 0.05);
+    background: #ffffff;
+    
+}
+/* Songs Available Box*/
+
+
+.card-left-initial {
+
+    display: flex;
+    flex-direction: column;
+    margin:1vw;
+    flex-wrap: nowrap;
+    align-items: center;
+    
+}
+
+.card-right-initial {
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.25);
+    height: 100%;
+    border-radius: 3vw;
+    padding: 0.1vw;
+}
+.count-song-container {
+    display: flex;
+    flex-direction: row;
+    gap: 1vw;
+    margin-top: 1vw;
+
+}
+.text-initial-count {
+    font-size: 1.1vw;
+    font-weight: 500;
+    color: #666666;
+    margin-bottom: 0.5vw;
+}
+
+.btnBuyInitial {
+    background-color: #0a0a0a;
+    color: white;
+    border-radius: 1.5vw;
+    border: none;
+    padding: 0.75vw 1vw 0.75vw 1vw;
+    font-size: 1.1vw;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.5s;
+    max-width: 100%; /* Add maximum width to prevent overflow */
+}
+button {
+    border: none;
+    box-shadow: 0px 0.7065919983928324px 0.7065919983928324px -0.625px rgba(0, 0, 0, 0.15), 0px 1.8065619053231785px 1.8065619053231785px -1.25px rgba(0, 0, 0, 0.14398), 0px 3.6217592146567767px 3.6217592146567767px -1.875px rgba(0, 0, 0, 0.13793), 0px 6.8655999097303715px 6.8655999097303715px -2.5px rgba(0, 0, 0, 0.12711), 0px 13.646761411524492px 13.646761411524492px -3.125px rgba(0, 0, 0, 0.10451), 0px 30px 30px -3.75px rgba(0, 0, 0, 0.05);
+}
+
+.btnBuyInitial:hover {
+    background-color: #D5A848;
+}
+
+/* Middle Part*/
+
+.center-column-initial {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1vw;
+    padding: 1vw;
+}
+
+.logoredes {
+    width: 2vw;
+    border: none;
+}
+
+.redesdisplay {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1vw;
+
+}
+.name-artist {
+    font-size: 2vw;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+}
+/* Image Part Left*/
+
+.img-display {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5vw;
+
+}
+
+.img-artist-initialSong {
+    border-radius: 1.5vw;
+    width: 12vw;
+    /* Establece un ancho fijo */
+    height: 7.5vw;
+    /* Ajusta automáticamente la altura */
+    object-fit: cover;
+}
